@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="Formulario con HTML" content="" />
+  </head>
+  <body>
+    <header>
+      <div class="headForm"></div>
+    </header>
+    <section>
+      <img src="img/foto_slide.jpg" alt="TecnmM" class="IMG">
+    </section>
+    <section>
+      <div class="Formu">
+        <div class="divDiv">
+          <h1 class="Tam32">Formulario de <samp class="Color3 Fuen Tam32">Solicitud de Becas</samp></h1>
+          <br>
+          <p>
+            Bienvenido a nunestro sistema de Solucitud de Becas online. Para ser tenido en cuenta para una una beca en nuestra Universidad, debes completar la Solicitud de beca online antes del 1 de Marzo de 2023.
+            <br><br>
+            Aplicar online no tiene cargos y te permite enviar toda la documentación respaldatoria necesaria a través de nuestro Formulario de solicitud de Beca aqui debajo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <br>
+    <hr>
+    <br>
+    <div>
+      <section>
+        <form action="enviar.php" method="post" class="form1">
+          <h3 class="Color2 Tam17">Detalles personales</h3>
+          <br>
+          <label>Nombre completo: </label>
+          <input type="text" name="Nombre" id="" placeholder="Nombre*" required class="boxGeneral TabGeneral">
+          <input type="text" name="Apellidos" id="" placeholder="Apellidos*" required class="boxGeneral">
+          <br>
+          <label>Fecah de nacimiento: </label>
+          <input type="text" name="Dia" id="" placeholder="Día" class="TabGeneral2 boxGeneral2">
+          <input type="month" name="Mes" id="" placeholder="Mes" class="boxGeneralMes">
+          <input type="text" name="Año" id="" placeholder="Año" class="boxGeneral2">
+          <br><br>
+          <label>Sexo/Genero</label>
+          <br>
+          <input type="radio" name="SexGener" value="H" >
+          <label>Hombre </label>
+          <input type="radio" name="SexGener" value="M" class="Tab">
+          <label>Mujer</label>
+          <br><br>
+          <label>Dirección de email</label>
+          <input type="email" name="email" placeholder="Ejemp@gmail.com*" required class="boxGeneral3 TabGeneral3">
+          <br>
+          <label>Domicilio</label>
+          <input type="text" name="Direccion" placeholder="Calle*" required class="boxGeneral3 TabGeneral4">
+          <br>
+          <input type="text" name="Cruzamientos" placeholder="Cruzamientos*" required class="boxGeneral3 TabGeneral5">
+          <br>
+          <input type="text" name="CP" placeholder="Codigo postal*" required class="TabGeneral5 boxGeneral4">
+          <input type="text" name="Ciudad" placeholder="Ciudad" class="boxGeneral4">
+          <br><br>
+          <hr>
+          <br>
+          <h3 class="Color2 Tam17">Estado actual de estudios e inteciones de estudio</h3>
+          <label>¿Cuál es tu estado actual</label>
+          <select name="" id="" class="boxGeneral3">
+            <option value="">*Seleccionar*</option>
+            <option value="A">Activo</option>
+            <option value="DB">Dado de Baja</option>
+            <option value="BT">Dado de baja temporal</option>
+          </select>
+          <label>de estudios?</label>
+          <br><br>
+          <label>¿A qué faculdad pretendes asistir?*</label>
+          <br>
+          <textarea cols="59" rows="3" required class="boxGeneral5"></textarea>
+          <br><br>
+          <label>Carrera 1</label>
+          <input type="text" class="boxGeneral3 TabGeneral6">
+          <br><br>
+          <label>Carrera 2</label>
+          <input type="text" class="boxGeneral3 TabGeneral6">
+          <br><br>
+          <label>Pretendes estudiar</label>
+          <br>
+          <input type="radio" name="StudyT">
+          <label>Part Time</label>
+          <input type="radio" name="StudyT" class="Tab">
+          <label>Full Time</label>
+          <br><br>
+          <label class="Color5">Enlistar cualquier reconocimiento académico de los cuales te gusraria que el Comité Academico tenga conocimiento:</label>
+          <br>
+          <textarea cols="59" rows="6" class="boxGeneral5"></textarea>
+          <br>
+          <button type="submit" class="BTN_1">Enviar solicitud</button>
+        </form>
+      </section>
+    </div>
+    <br><br>
+    <footer>
+      <div class="FootForm">
+        <img src="img/logo_tec_transparente.png" alt="logo_tec" class="IMG2">
+      </div>
+    </footer>
+  </body>
+</html>

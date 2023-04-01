@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+.headForm {
+  width: auto;
+  height: 30px;
+  margin: auto;
+  border: 3px #333333 solid;
+  background-color: #333333;
+}
+.FootForm {
+  width: auto;
+  height: 160px;
+  margin: auto;
+  background-color: #008781;
+  display: flex;
+  justify-content: center;
+}
+.Formu {
+  margin: auto;
+  width: auto;
+  height: 250px;
+  border: #e0e0e0;
+  background-color: #e0e0e0;
+}
+.IMG {
+  display: block;
+  margin: auto;
+}
+.IMG2 {
+  padding: 20px 0px 20px 0px;
+  width: 10%;
+  height: 100%;
+}
+.divDiv {
+  margin: auto;
+  width: 710px;
+  height: 250px;
+  padding: 30px 0px 10px 0px;
+  border: 0px red groove;
+}
+.form1 {
+  border: 0px blue solid;
+  width: 690px;
+  margin: auto;
+}
+.boxGeneral {
+  margin: 5px;
+  width: 240px;
+  padding: 10px;
+  /* background-color: #ececec; */
+  border: 1px #cccccc solid;
+  border-radius: 5px;
+}
+.boxGeneral2 {
+  margin: 5px;
+  width: 130px;
+  padding: 10px;
+  /* background-color: #ececec; */
+  border: 1px #cccccc solid;
+  border-radius: 5px;
+}
+.boxGeneral3 {
+  margin: 5px;
+  width: 491px;
+  padding:10px;
+  /* background-color: #ececec; */
+  border: 1px #cccccc solid;
+  border-radius: 5px;
+}
+.boxGeneral4 {
+  margin: 5px;
+  width: 238px;
+  padding: 10px;
+  /* background-color: #ececec; */
+  border: 1px #cccccc solid;
+  border-radius: 5px;
+}
+.boxGeneral5 {
+  /* background-color: #ececec; */
+  border: 1px #cccccc solid;
+  border-radius: 5px;
+}
+.boxGeneralMes {
+  margin: 5px;
+  width: 160px;
+  padding: 10px;
+  /* background-color: #ececec; */
+  border: 1px #cccccc solid;
+  border-radius: 5px;
+}
+.BTN_1 {
+  width: 200px;
+  background-color: #333333;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 30px;
+  border: 0px;
+  cursor: pointer;
+}
+hr {
+  width: 690px;
+  margin: auto;
+}
+.Color1 {
+  color: #008781;
+}
+.Color2 {
+  color: #068047;
+}
+.Color3 {
+  color: #009a8c;
+}
+.Color4 {
+  color: #F4F4F4;
+}
+.Color5 {
+  color: #808080;
+}
+.Center {
+  text-align: center;
+}
+.negritas {
+  font-weight: bold;
+}
+.subrayado {
+  text-decoration: underline;
+}
+.Fuen {
+  font-family: helvetica;
+}
+.Tam40 {
+  font-size: 40px;
+}
+.Tam32 {
+  font-size: 32px;
+}
+.Tam28 {
+  font-size: 28px;
+}
+.Tam25 {
+  font-size: 25px;
+}
+.Tam19 {
+  font-size: 19px;
+}
+.Tam17 {
+  font-size: 17px;
+}
+.Tam15 {
+  font-size: 15px;
+}
+.Tam12 {
+  font-size: 12px;
+}
+.Tab{
+  margin-left: 28px;
+}
+.TabGeneral {
+  margin-left: 50px;
+}
+.TabGeneral2 {
+  margin-left: 30px;
+}
+.TabGeneral3 {
+  margin-left: 52px;
+}
+.TabGeneral4 {
+  margin-left: 120px;
+}
+.TabGeneral5 {
+  margin-left: 190px;
+}
+.TabGeneral6 {
+  margin-left: 119px;
+}
